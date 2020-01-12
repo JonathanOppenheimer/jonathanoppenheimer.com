@@ -8,7 +8,7 @@ body {
 #style1 {
     color: white;
     font-size: 4em;
-    font-family: 'Lucida Sans';
+    font-family: 'Roboto', sans-serif;
 }
 
 .center {
@@ -21,6 +21,7 @@ body {
 .container {
     display: flex;
     flex-direction: row; 
+    
 }
 
 #item {

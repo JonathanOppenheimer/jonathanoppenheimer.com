@@ -1,1 +1,86 @@
-/*init*/
+body {
+  background-color: #708090;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* MENU */
+.vertical-menu {
+  width: 43vw; 
+  padding-top: 5vh;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black; 
+  display: block; 
+  padding: 1vh; 
+  text-decoration: none; 
+
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; 
+}
+
+.vertical-menu a.active {
+  background-color: 	#536878; 
+  color: white;
+}
+
+
+/* GRID */
+.grid2x2 {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+}
+.grid2x2 > div {
+  display: flex; 
+  padding-left: 4vw;
+  padding-right: 2vw;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.grid2x2 > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #36454f;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: black;
+}
+
+/* XYZ */
