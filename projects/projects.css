@@ -83,4 +83,8 @@ li a:hover:not(.active) {
   background-color: black;
 }
 
+#red {
+  color: red;
+}
+
 /* XYZ */

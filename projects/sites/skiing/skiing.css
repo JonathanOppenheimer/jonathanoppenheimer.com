@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background: url('skiing.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -12,14 +12,7 @@ body {
     display: black;
     opacity: 0.9;
     background-color: white;
+    border: 1px solid black;
     margin: auto;
-}
-
-#score {
-    color: white;
-}
-
-#white {
-    color: white;
 }
 

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hangman</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" scontent="width=device-width, initial-scale=1">
+
+
+    <script src="hangman.js"></script>
+    <link rel="stylesheet" type="text/css" href="hangman.css">
+</head>
+
+<body>
+    <div class="fill2">
+        <h1 class="center">Hangman Game</h1>
+    </div>
+    <br>
+    <div id="word_input" class="center">
+        <input type="text" name="word_enter" placeholder="Enter the word to guess here" id="word_enter" class="strech"></input>
+        <br>
+        <br>
+        <button type="button" placeholder="Submit Word" name="verysecure" value="Submit" onclick="wordEnter()" class="fancy" id="submit_word">Submit Word</button>
+    </div>
+    <p class="center">
+        <input type="text" name="letter_enter" placeholder="" id="letter_enter" maxlength = "1" class="strech2"></input>
+        <br>
+        <br>
+        <button type="button" placeholder="Submit Letter" name="verysecure" value="Submit" onclick="letterGuess()" class="fancy" id="letter_guess">Submit Guess</button>
+    </p>
+    <div class="fill">
+        <p class="fancy" id="textbox">...</p>
+    </div>
+    <p class="fancy" id="bad_guesses">...</p>
+</body>
+
+</html>

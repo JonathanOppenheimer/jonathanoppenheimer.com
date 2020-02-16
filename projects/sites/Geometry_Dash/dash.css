@@ -1,0 +1,25 @@
+body {
+    background-color: #111d5e;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-content: center;
+    text-align: center;
+}
+
+#my-canvas {
+    display: #111d5e;
+    opacity: 0.9;
+    background-color: #fe346e;
+    margin: auto;
+}
+
+#score {
+    color: white;
+}
+
+#white {
+    color: white;
+}
+

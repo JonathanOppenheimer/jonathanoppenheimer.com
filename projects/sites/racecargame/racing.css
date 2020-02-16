@@ -1,0 +1,18 @@
+body {
+    background: url('racingbackround.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-content: center;
+    text-align: center;
+}
+
+#my-canvas {
+    display: black;
+    opacity: 0.9;
+    background-color: white;
+    border: 1px solid black;
+    margin: auto;
+}
+
