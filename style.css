@@ -1,5 +1,7 @@
+/*______the main shit___________*/
 body {
     background-color: #43c4ef;
+    background-image: url("resources/oceantime.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -9,6 +11,7 @@ body {
     color: white;
     font-size: 4em;
     font-family: 'Roboto', sans-serif;
+    padding-bottom: 2vh;
 }
 
 .center {
@@ -28,5 +31,37 @@ body {
     padding-left: 0.5vw;
     padding-right: 0.5vw;
 }
+/*______the box___________*/
+.bg-text {
+    background-color: rgb(0, 0, 0,0.8);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+  }
 
+/*______Second page fucntionality___________*/
 
+* {
+    margin: 0;
+  }
+  
+  .container2 {
+    width: 100%;
+    height: 100%;
+    /* CSS Smooth Scroll */
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+  
+    
+  section {
+    width: 100%;
+    height: 100vh;
+    /* Scroll Snap */
+    scroll-snap-align: center;
+  }
+  section#about {
+      background-color: white;
+  }
