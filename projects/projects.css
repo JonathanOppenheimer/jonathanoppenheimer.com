@@ -87,4 +87,11 @@ li a:hover:not(.active) {
   color: red;
 }
 
+p {
+  color: black; 
+  padding-left: 4vw;
+  padding-right: 2vw; 
+  margin-bottom: -2vh;
+}
+
 /* XYZ */
