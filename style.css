@@ -1,101 +1,71 @@
-/*______the main shit___________*/
+* {
+  font-family: "Palatino", "serif";
+}
 
 body {
-  background-color: rgb(0, 13, 15);
-  background-image: url("resources/oceantime.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-color: white;
 }
 
-#style1 {
-  color: white;
-  font-size: 4em;
-  font-family: 'Roboto', sans-serif;
-  padding-bottom: 2vh;
+img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12.5vw;
+  height: 12.5vw;
 }
 
-.center {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 90vh;
+h2 {
+  margin-bottom: -0.5vh;
 }
 
-.container {
-  display: flex;
-  flex-direction: row;
-}
-
-#item {
-  padding-left: 0.5vw;
-  padding-right: 0.5vw;
-}
-
-/*______the box___________*/
-
-.bg-text {
-  background-color: rgb(0, 0, 0, 0.8);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 1em;
-}
-
-/*______Second page fucntionality___________*/
-
-* {
-  margin: 0;
-}
-
-.container2 {
-  width: 100%;
-  height: 100%;
-  /* CSS Smooth Scroll */
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
-}
-
-section {
-  height: 100vh; 
-  /* Scroll Snap */
-  scroll-snap-align: center;
-}
-
-.lead {
-  color: white;
-  font-size: 1.5em;
-  font-family: 'Roboto', sans-serif;
-}
-
-section#about {
-  padding: 4vh;
-  background-color: rgb(0, 12, 21);
-}
-
-a {
-  color: rgb(88, 90, 92);
-  text-decoration: none; /* no underline */
+p {
+  line-height: 1.33em;
 }
 
 a:link {
-  color: rgb(88, 90, 92);
+  color: black;
 }
 
 /* visited link */
 a:visited {
-  color: rgb(46, 66, 92);
+  color: grey;
 }
 
 /* mouse over link */
 a:hover {
-  text-decoration: underline;
+  color: blue;
 }
 
-a:active
-{
-  color: rgb(25, 25, 25);
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3vh;
+  min-height: calc(100vh - 3em);
 }
 
+.container > div {
+  position: relative;
+  width: 100%;
+}
+
+.page {
+  border: 1px solid black;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 1em;
+}
+
+.title {
+  text-align: center;
+}
+
+.pagenumber {
+  text-align: center;
+}
+
+.bottom {
+  bottom: 1em;
+  left: 0;
+  margin-left: 50%;
+  position: absolute;
+}
