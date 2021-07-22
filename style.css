@@ -70,3 +70,13 @@ a:hover {
   margin-left: 50%;
   position: absolute;
 }
+
+.big {
+  background: transparent;
+  border: none;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  padding: 2vh 4vw;
+  width: 50%;
+}
