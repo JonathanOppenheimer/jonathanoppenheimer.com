@@ -12,8 +12,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 12.5vw;
-  height: 12.5vw;
+  width: 10em;
+  height: 10em;
 }
 
 h2 {
@@ -79,4 +79,18 @@ a:hover {
   display: block;
   padding: 2vh 4vw;
   width: 50%;
+}
+
+@media only screen and (max-width: 854px) {
+  .container > div {
+    width: auto;
+  }
+
+  .container {
+    -webkit-transition: ease 0.5s;
+    -moz-transition: ease 0.5s;
+    -ms-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+    transition: ease 0.5s;
+  }
 }
