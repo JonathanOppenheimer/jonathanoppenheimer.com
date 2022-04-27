@@ -1,4 +1,6 @@
 # jonathanoppenheimer.me
-My personal website, styled to look like the page of a book. 
+My personal website, styled to look like the page of a book. Currently contains my resume, and a few forms of contact information. 
 
-You can visit the site at the following link: https://jonathanoppenheimer.me/
+Links: 
+- https://jonathanoppenheimer.me/
+- https://www.cs.purdue.edu/homes/joppenhe/ (redirect) 
