@@ -1,4 +1,4 @@
-# jonathanoppenheimer.me
+# jonathanoppenheimer.com
 My personal website, styled to look like the page of a book. Currently contains my resume, and a few forms of contact information. 
 
 Links: 
