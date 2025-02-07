@@ -5,12 +5,18 @@ const moon = document.querySelector(".moon");
 
 const currentTheme = localStorage.getItem("theme");
 if (currentTheme == "dark") {
-  moon.classList.toggle("visible")
-  sun.classList.toggle("visible")
+  moon.classList.toggle("visible");
+  sun.classList.toggle("visible");
   document.body.classList.toggle("dark-theme");
 } else if (currentTheme == "light") {
   document.body.classList.toggle("light-theme");
-} 
+} else {
+  // Handle default system preference
+  if (prefersDarkScheme.matches) {
+    moon.classList.toggle("visible");
+    sun.classList.toggle("visible");
+  }
+}
 
 btn.addEventListener("click", function () {
   sun.classList.toggle("visible");
